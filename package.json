@@ -1,0 +1,44 @@
+{
+  "name": "payme-sdk",
+  "version": "1.0.0",
+  "main": "dist/payme-sdk.js",
+  "types": "dist/payme-sdk.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "PayMe",
+    "API",
+    "SDK",
+    "Payments",
+    "Node.js",
+    "Typescript",
+    "Payment Gateway",
+    "Mobile  Payments",
+    "Financial Integration",
+    "Sandbox",
+    "Production",
+    "Callback",
+    "Bearer Token",
+    "REST API",
+    "HTTP Client",
+    "Node.js",
+    "PAYME Node SDK",
+    " Node SDK"
+  ],
+  "author": "Quantum Software Inc",
+  "license": "ISC",
+  "description": "A Node.js SDK to integrate with PAYME API",
+  "devDependencies": {
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21"
+  }
+}
