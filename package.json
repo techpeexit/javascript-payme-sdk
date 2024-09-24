@@ -1,6 +1,6 @@
 {
   "name": "payme-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/payme-sdk.js",
   "types": "dist/payme-sdk.d.js",
   "scripts": {
