@@ -77,6 +77,9 @@ class PayMeSDK {
     this.apiKey = apiKey;
     this.token = '';
     this.externalDataService = new ExternalDataService();
+    if(!this.email || !this.password || !this.apiKey) {
+      throw new Error('Email, password and apiKey are required');
+    }
   }
 
   /**
